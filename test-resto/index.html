@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-background">
+        <h1><a href="" class="title-top">Restaurant Nusantara</a></h1>
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="menu">Menu</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>~ About Restaurant ~</h2>
+            <p>Hello there! at Tangerang City.</p>
+        </section>
+        <section id="menu">
+            <h2>~ Gallery Menu ~</h2>
+            <div class="filter-buttons">
+                <button onclick="filterMenu('food')">Food</button>
+                <button onclick="filterMenu('drink')">Drink</button>
+                <button onclick="filterMenu('snack')">Snack</button>
+            </div>
+            <div class="menu makanan" id="menu1">
+                <a href="food.html">
+                    <img src="images/food.jpg" alt="Food" class="menu-image">
+                    <p>Food</p>
+                </a>
+            </div>
+            <div class="menu minuman" id="menu2">
+                <a href="drink.html">
+                    <img src="images/drink.jpg" alt="Drink" class="menu-image">
+                    <p>Drink</p>
+                </a>
+            </div>
+            <div class="menu kue" id="menu3">
+                <a href="snack.html">
+                    <img src="images/snack.jpg" alt="Snack" class="menu-image">
+                    <p>Snack</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="hours">
+                        <h2 class="heading">Open Hours</h2>
+                        <p>Sunday <span>10:30 AM - 10:00 PM</span></p>
+                        <p>Mon-Fri <span>9:00 AM - 8:00 PM</span></p>
+                        <p>Saturday <span>11:30 AM - 10:00 PM</span></p>
+                    </div>
+                    <div class="contact">
+                        <h2 class="heading">Contact Info</h2>
+                        <div class="ph">
+                            <p><i>Phone</i></p>
+                            <h4>080-XXX-XXX</h4>
+                        </div>
+                        <div class="address">
+                            <p><i>Our Location</i></p>
+                            <h4>Pamulang, Tangerang Selatan</h4>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31722.693385708102!2d106.6893312!3d-6.3504384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1736138277132!5m2!1sid!2sid"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="socmed">
+                        <h2 class="heading">Follow Us</h2>
+                        <ul class="social-icon">
+                            <li><a href="#" class="in-facebook"></a></li>
+                            <li><a href="#" class="in-twitter"></a></li>
+                            <li><a href="#" class="in-instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <section id="copyright">
+            <div class="container">
+                <h3>Nusantara</h3>
+                <p>Copyright © Restaurant and Cafe
+                    | Design: UNPAM</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
